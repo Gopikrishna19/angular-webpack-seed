@@ -18,7 +18,6 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loaders: [
-          'ng-annotate?single_quotes',
           'babel?sourceMap'
         ]
       },
